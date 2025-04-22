@@ -1,16 +1,15 @@
-# 🧠 Customer Personality Dashboard
+# 🧠 Customer Personality Analysis Dashboard
 
-This interactive dashboard helps visualize and analyze customer personality insights using unsupervised machine learning techniques like DBSCAN and t-SNE.
-
-It allows businesses and marketers to segment customers based on behavior, spending habits, and lifestyle — enabling more targeted marketing and strategic decision-making.
-
----
+This dashboard offers an insightful analysis of customer personalities based on marketing data. It leverages clustering and dimensionality reduction techniques to identify patterns in customer behavior and provide valuable business insights.
 
 ## 🚀 Live Demo
-
-👉 [Click here to view the live dashboard on Streamlit](https://customerpersonalitydashboard.streamlit.app/)
+👉 [Click here to view the deployed dashboard](https://customerpersonalitydashboard-k62opjj7xbyxauphkz7mrq.streamlit.app/)
 
 ---
+
+## 📁 Project Structure
+
+├── personal.py # Main Streamlit dashboard app ├── marketing_campaign_cleaned.csv # Cleaned dataset ├── README.md # Project documentation
 
 ## 📊 Features
 
@@ -30,24 +29,17 @@ It allows businesses and marketers to segment customers based on behavior, spend
 - **Streamlit** (for dashboard)
 
 ---
+## Author
+- **Efer001** | AI Engineer & Data Explorer
 
-## ⚙️ How to Run Locally
+---
+## 💡 Future Improvements
+- Add anomaly detection (Isolation Forest)
+- Integrate prediction models
+- Export PDF/CSV of insights
+- Deploy on custom domain
 
-1. **Clone the repo**
+---
 
-```bash
-git clone https://github.com/Nefer001/CustomerPersonalityDashboard.git
-cd CustomerPersonalityDashboard
-
-Create virtual environment (optional but recommended)
-bash:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-Install requirements
-bash:
-pip install -r requirements.txt
-
-Run Streamlit app
-bash:
-streamlit run app.py
+## 📬 Contact
+Feel free to reach out for freelance projects or collaborations!
